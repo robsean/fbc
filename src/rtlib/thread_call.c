@@ -30,7 +30,7 @@ FBTHREAD *fb_ThreadCall( void *proc, int abi, ssize_t stack_size, int num_args, 
 
 #else
 
-#include <ffi.h>
+#include "ffi.h"
 
 #define FB_THREADCALL_MAX_ELEMS 1024
 
